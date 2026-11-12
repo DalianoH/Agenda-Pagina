@@ -1,0 +1,56 @@
+body{
+    background-color: #333333;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    color:#e6b900;
+    padding-left: 40px;
+}
+.grijze-blok{
+    background-color: #444444;
+    width: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#media{
+    display: flex;
+    justify-content: space-around;
+}
+#terug{
+    padding-left: 0px;
+}
+#back{
+    padding-left: 0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    background-color: #444444;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #F0C928;
+    border: none;
+}
+.img{
+    margin-top: 20px;
+    width: 500px;
+}
+.flex{
+    display: flex;
+}
